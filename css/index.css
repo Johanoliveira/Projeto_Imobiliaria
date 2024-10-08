@@ -47,6 +47,9 @@
     padding: 5px;
     margin: 0 10px;
 }
+#selection ul li:hover{
+    transform: scale(1.1);
+}
 #selection ul li a{
     color: white;
 }
@@ -58,7 +61,7 @@
 #pesquisadeimoveis{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 170px;
     font-size: 40px;
     color: antiquewhite;
 }
@@ -69,6 +72,9 @@
     color: antiquewhite;
     font-size: 20px;
 }
+#selecao{
+    padding-top: 20px;
+}
 #selecao ul{
     display: flex;
     flex-wrap: wrap;
@@ -77,5 +83,63 @@
 }
 #selecao ul li{
     padding: 5px;
-    margin: 0 10px;
+    margin: 0 5px;
+}
+#selecao ul li select{
+    border-style: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+}
+#botaopesquisar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding-top: 30PX;
+}
+#botaopesquisar button{
+    font-size: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(15, 32, 52);
+    color: antiquewhite;
+    width: 200px;
+    height: 60px;
+    transition: transform 0.2s;
+}
+#botaopesquisar button:hover{
+    background-color: rgb(22, 44, 69);
+    transform: scale(1.1);
+}
+#titled{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    font-size: 25px;
+    color: rgb(15, 32, 52);
+}
+#Destaquesdelocacao{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imovel{
+    margin-bottom: 20px;
+    justify-content: space-around;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: transform 0.2s, background-color 0.5s;
+}
+.imovel:hover{
+    transform: scale(1.02);
+    background-color: rgb(15, 32, 52);
+    color: antiquewhite;
 }
