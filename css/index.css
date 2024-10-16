@@ -130,8 +130,8 @@ a{
     flex-wrap: wrap;
     flex: 1 1 calc(25% - 10);
     padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .imovel{
     margin-bottom: 20px;
