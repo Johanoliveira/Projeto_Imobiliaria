@@ -49,3 +49,23 @@ input{
     padding: 30px;
     color: antiquewhite;
 }
+input{
+    border: none;
+}
+#entrar{
+    width: 200px;
+    height: 70px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 44vw;
+    top: 63vh;
+    padding-top: 30px;
+    color: rgb(15, 32, 52, 0.95);
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+#entrar:hover{
+    transform: scale(1.2);
+}
